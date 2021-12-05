@@ -17,39 +17,58 @@
   </head>
 
   <body>
+    <body>
     <div class="container">
-      <div class="card" style="background: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%)">
-        <form class="search-bar" id="search-form">
-          <input
-            type="text"
-            id="city-input"
-            autocomplete="off"
-            spellcheck="false"
-            placeholder="Search a city"
-          />
-          <input type="submit" value="Go" id="go" />
-          <button id="locationButton">
-            <i class="fas fa-thumbtack"></i>  My Location
-          </button>
-        </form>
-
-        <h2></h2>
-        <p id="date"></p> 
-        <div class="temperatures-display">
-          <img src="" id="icon" />
-          <h1></h1>
-          <span class="units">°C</span>
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Type a city.."
+                  class="form-control"
+                  id="city-input"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn btn-primary w-100"
+                />
+              </div>
+            </div>
+          </form>
+          <div class="overview">
+            <h1 id="city"></h1>
+            <ul>
+              <li>Last updated: <span id="date"></span></li>
+              <li id="description"></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="clearfix weather-temperature">
+                <img src="" alt="Clear" id="icon" class="float-left" />
+                <div class="float-left">
+                  <strong id="temperature"></strong
+                  ><span class="units"
+                    ><a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a></span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
+              </ul>
+            </div>
+          </div>
         </div>
-
-        <h3></h3>
-        <div class="humidityWind">
-          <div id="humidity">Humidity</div>
-          <div id="wind">Wind</div>
-        </div>
-</br>
-        <div class="weather-forecast" id="forecast"></div>
-      </div>
-
       <div id="coded-by">
         <a href="https://github.com/itsnotlucii/W-App-2pt0" target="_blank"
           >Open-source code</a
