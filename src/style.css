@@ -107,7 +107,7 @@ input {
   border: none;
   filter: blur(0px);
   background-size: cover;
-  background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+  background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 
 .container {
