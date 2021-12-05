@@ -33,10 +33,6 @@ li:first-letter {
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
-  background: radial-gradient(
-    rgba(234, 249, 249, 0.67) 0.1%,
-    rgba(239, 249, 251, 0.63) 90.1%
-  );
 }
 
 .weather-app {
