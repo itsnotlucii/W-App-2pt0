@@ -105,9 +105,12 @@ input {
 .card {
   border-radius: 40px;
   border: none;
-  filter: blur(0px);
   background-size: cover;
-  background: gradient(to top, #accbee 0%, #e7f0fd 100%);
+  background: radial-gradient(
+    circle at 1.3% 2.8%,
+    rgb(239, 249, 249) 0%,
+    rgb(182, 199, 226) 100.2%
+  );
 }
 
 .container {
