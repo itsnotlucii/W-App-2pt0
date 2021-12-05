@@ -1,0 +1,143 @@
+h1 {
+  text-align: center;
+  display: inline-block;
+  color: whitesmoke;
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 0.6em;
+  text-align: center;
+  margin-left: 17px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 25px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.search-bar {
+  padding: 25px 30px 30px 30px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: none;
+}
+
+h2,
+h3,
+p {
+  text-align: center;
+  display: block;
+  color: whitesmoke;
+}
+
+button {
+  display: inline-block;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px;
+  text-decoration: underline;
+  color: whitesmoke;
+  max-width: 190px;
+}
+button:focus {
+  border: none;
+  outline: none;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.329);
+  padding: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  outline: none;
+  text-transform: capitalize;
+}
+
+#go {
+  border-radius: 10px;
+}
+
+#coded-by {
+  font-size: 13px;
+}
+
+#icon {
+  max-width: 120px;
+  display: inline;
+  position: relative;
+  top: -20px;
+  right: -10px;
+}
+
+::placeholder {
+  color: whitesmoke;
+}
+
+.temperatures-display .units {
+  position: relative;
+  top: -34px;
+}
+
+.temperatures-display {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.units {
+  color: whitesmoke;
+}
+
+.humidityWind {
+  color: whitesmoke;
+  opacity: 0.9;
+}
+
+.card {
+  border-radius: 40px;
+  border: none;
+  filter: blur(0px);
+  background-size: cover;
+}
+
+.container {
+  display: block;
+  text-align: center;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 30px auto;
+  font-family: "Quicksand", sans-serif;
+}
+
+.col {
+  text-align: center;
+  padding: 2px;
+}
+
+.weather-forecast {
+  margin: 20px 20px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.weather-forecast-temperature-max {
+  font-weight: 600;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.7;
+}
