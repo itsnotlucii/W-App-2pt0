@@ -105,7 +105,7 @@ input {
 .card {
   border-radius: 40px;
   border: none;
-  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  background-color: #c5dff9;
 }
 
 .container {
