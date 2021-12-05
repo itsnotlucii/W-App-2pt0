@@ -17,10 +17,18 @@
   </head>
 
   <body>
-    <body>
     <div class="container">
       <div class="weather-app-wrapper">
-        <div class="weather-app">
+        <div
+          class="weather-app"
+          style="
+            background: radial-gradient(
+              circle at 10% 20%,
+              rgb(239, 246, 249) 0%,
+              rgb(206, 239, 253) 90%
+            );
+          "
+        >
           <form id="search-form" class="mb-3">
             <div class="row">
               <div class="col-3">
@@ -33,11 +41,7 @@
                 />
               </div>
               <div class="col-3">
-                <input
-                  type="submit"
-                  value="Search"
-                  class="btn btn-info w-50"
-                />
+                <input type="submit" value="Search" class="btn btn-info w-50" />
               </div>
             </div>
           </form>
@@ -65,10 +69,11 @@
               <ul>
                 <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind: <span id="wind"></span> km/h</li>
-             </ul>
+              </ul>
             </div>
           </div>
         </div>
+        <br />
         <small>
           <a
             href="https://github.com/itsnotlucii/W-App-2pt0.git"
