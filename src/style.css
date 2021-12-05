@@ -107,6 +107,11 @@ input {
   border: none;
   filter: blur(0px);
   background-size: cover;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
 }
 
 .container {
