@@ -37,8 +37,14 @@ li:first-letter {
 
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: none;
   border-radius: 5px;
+  background: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
+    radial-gradient(
+      91% 146%,
+      rgba(255, 255, 255, 0.5) 47%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
 }
 
 .overview {
