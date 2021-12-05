@@ -18,7 +18,11 @@
 
   <body>
     <div class="container">
-      <div class="card">
+      <div class="card" style="background: radial-gradient(
+    circle at 1.3% 2.8%,
+    rgb(239, 249, 249) 0%,
+    rgb(182, 199, 226) 100.2%
+  )">
         <form class="search-bar" id="search-form">
           <input
             type="text"
@@ -29,12 +33,12 @@
           />
           <input type="submit" value="Go" id="go" />
           <button id="locationButton">
-            <i class="fas fa-thumbtack"></i> My Location
+            <i class="fas fa-thumbtack"></i>  My Location
           </button>
         </form>
 
         <h2></h2>
-        <p id="date"></p>
+        <p id="date"></p> 
         <div class="temperatures-display">
           <img src="" id="icon" />
           <h1></h1>
@@ -46,7 +50,7 @@
           <div id="humidity">Humidity</div>
           <div id="wind">Wind</div>
         </div>
-
+</br>
         <div class="weather-forecast" id="forecast"></div>
       </div>
 
