@@ -106,7 +106,7 @@ input {
   border-radius: 40px;
   border: none;
   filter: blur(0px);
-  background-size: cover;
+  background-size: 600px;
 }
 
 .container {
