@@ -1,7 +1,7 @@
 h1 {
   text-align: center;
   display: inline-block;
-  color: whitesmoke;
+  color: ;
   font-size: 70px;
 }
 
@@ -106,7 +106,7 @@ input {
   border-radius: 40px;
   border: none;
   filter: blur(0px);
-  background-size: 600px;
+  background-size: cover;
 }
 
 .container {
