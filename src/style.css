@@ -89,9 +89,7 @@ li:first-letter {
 
 .weather-forecast-min {
   opacity: 0.5;
-  color: #87cdeb;
 }
 .weather-forecast-temp {
   font-size: 13px;
-  color: #5cc6f3;
 }
