@@ -33,6 +33,9 @@ li:first-letter {
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
+  background-color: #f8f6f0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(128 128 128 / 26%);
 }
 
 .weather-app {
