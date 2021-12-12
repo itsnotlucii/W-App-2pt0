@@ -30,12 +30,18 @@ li:first-letter {
   text-transform: capitalize;
 }
 
-.weather-app-wrapper {
-  max-width: 600px;
-  margin: 30px auto;
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 15px 60px;
   background-color: #f8f6f0;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgb(128 128 128 / 26%);
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
 }
 
 .weather-app {
