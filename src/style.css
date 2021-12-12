@@ -94,6 +94,7 @@ li:first-letter {
   font-size: 13px;
 }
 
-.search-btn {
-  color: #0092ca;
+.btn {
+  color: #ffffff;
+  background-color: #0680b1;
 }
