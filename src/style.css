@@ -72,3 +72,21 @@ li:first-letter {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: dodgerblue;
+  opacity: 0.5;
+}
+
+.weather-forecast-min {
+  opacity: 0.5;
+}
+.weather-forecast-temp {
+  font-size: 13px;
+}
