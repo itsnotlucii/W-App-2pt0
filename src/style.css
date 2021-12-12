@@ -1,11 +1,10 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
-    radial-gradient(
-      91% 146%,
-      rgba(255, 255, 255, 0.5) 47%,
-      rgba(0, 0, 0, 0.5) 100%
-    );
+  background: radial-gradient(
+    827px at 47.3% 48%,
+    rgb(255, 255, 255) 0%,
+    rgb(138, 192, 216) 90%
+  );
 }
 
 h1 {
@@ -41,6 +40,7 @@ li:first-letter {
   margin: 30px auto;
   border: 1px solid #c7bebe;
   border-radius: 5px;
+  background-color: lavenderblush;
 }
 
 .weather-app {
