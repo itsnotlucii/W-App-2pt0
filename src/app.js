@@ -128,6 +128,8 @@ function displayCelciusTemperature(event) {
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
+search("Sydney");
+
 let celsiusTemperature = null;
 
 let form = document.querySelector("#search-form");
@@ -138,5 +140,3 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
-
-search("Sydney");
